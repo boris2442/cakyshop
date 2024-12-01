@@ -336,15 +336,36 @@ box-shadow: 3px 2px 4px var(--color4);
     color:var(--color6);
     font-size: 1.5rem;
 }
-
+#avis h2{
+    text-align: center;
+    padding: 40px;
+    text-transform: capitalize;
+    font-family: "parisienne" Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
 /* partie reservation */
 
 
+
+#reservation{
+    width: 100%;
+}
 .contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 30px;
     gap:40px;
+}
+.contact div{
+    line-height: 30px;
+  text-align: center;
+    font-size: 1.2rem;
+}
+.contact h3{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 40px;
 }
 #reservation h2{
     text-align: center;
