@@ -16,6 +16,7 @@
 }
 htmml, body{
     overflow-x: hidden;
+    width: 100%;
 }
 img{
     z-index: -1;
@@ -178,7 +179,7 @@ header div img{
 .father-about{
     display: flex;
     width: 80%;
-    
+    padding: 15px;
    flex-wrap: wrap;
     align-items: center;
     padding-bottom: 40px;
@@ -472,4 +473,53 @@ footer p{
     text-align: center;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.6rem;
+}
+
+
+
+/* partie responsive */
+
+@media screen and ( max-width:860px) {
+    .commande{
+        height: 200px;
+        overflow: auto;
+    }
+}
+@media screen and ( max-width:860px) {
+    #reservation{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .contact{
+display: flex;
+flex-direction: column-reverse;
+    }
+    .commande{
+        padding: 30px;
+    }
+   .contact div p i{
+    text-align: center;
+   }
+   .localisation, .number, p {
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}
+@media screen and (max-width:979px) {
+    .father-avis{
+      display: flex;
+      flex-direction: column;
+    }
+    .father-avis div p{
+        width: 50%;
+        /* text-align: center;
+        display: flex; */
+        margin: 0 auto;
+    }
+    
 }

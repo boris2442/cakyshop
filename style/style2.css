@@ -1,4 +1,17 @@
 /* partie responsive */
-@media screen and (max) {
+@media screen and (max:1000px) {
+   .father-about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   }
+   .father-about div{
+    width: 100%;
+   }
     
+    
+}
+@media screen and (max:850px) {
+  header ul li a {
+    color:green;
+  }
 }
