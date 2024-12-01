@@ -9,6 +9,7 @@
     --color3:white;
     --color4:black;
     --color5:#7A7B78;
+    --color6:orange;
 }
 img{
     z-index: -1;
@@ -173,6 +174,7 @@ header div img{
    padding: 10px;
    box-shadow: 0px 3px 3px var(--color4);
    border-radius: 7px;
+   line-height: 40px;
    text-align: center;
     align-items: center;
     width: 22%;
@@ -294,4 +296,43 @@ transform: rotateY(360deg);
     color:var(--color4);
     padding: 30px;
     font-weight: 800;
+}
+.father-avis{
+display: flex;
+gap:40px;
+padding: 15px;
+flex-wrap: wrap;
+justify-content: space-around;
+padding-bottom: 40px;
+
+}
+.father-avis div{
+    border: 1px solid var(--color4);
+  box-shadow: 0px 3px 3px var(--color4);
+ border-radius: 9px; 
+ min-height: 300px;
+ padding: 20px;
+
+ text-align: center;
+}
+
+.father-avis div img{
+    width: 200px;
+    margin: 20px;
+    transition: 1s ease-in-out;
+    height: 200px;
+    border-radius: 50%;
+}
+.father-avis div img:hover{
+transform: scale(0.7);
+box-shadow: 3px 2px 4px var(--color4);
+}
+.father-avis div p{
+    text-align: justify;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.father-avis div i{
+    color:var(--color6);
+    font-size: 1.5rem;
 }
