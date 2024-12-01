@@ -152,14 +152,14 @@ header div img{
 
 
 /* section about */
-#about{
-    /* height: 100vh; */
+#about h2{
+  padding-bottom: 40px;
 }
 .father-about{
     display: flex;
     width: 80%;
     
-    /* height: 80vh; */
+   flex-wrap: wrap;
     align-items: center;
     padding-bottom: 40px;
     margin: 0 auto;
@@ -288,4 +288,10 @@ transform: rotateY(360deg);
     color:var(--color3);
     border-radius: 50%;
 }
-
+#produits h2{
+    text-align: center;
+    font-family: "parisienne", Arial, Helvetica, sans-serif;
+    color:var(--color4);
+    padding: 30px;
+    font-weight: 800;
+}
