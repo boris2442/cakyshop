@@ -10,11 +10,15 @@
     --color4:black;
     --color5:#7A7B78;
 }
+img{
+    z-index: -1;
+}
 header{
     padding: 30px;
     height: 15vh;
    position: fixed;
    width: 100%;
+   z-index: 1;
     margin: 0 auto;
 background-color: var(--color3);
 
@@ -51,7 +55,17 @@ header ul li a:hover{
 }
 header h2{
 
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    animation:anim-welcome 2s linear infinite;
+}
+@keyframes anim-welcome {
+50%{
+    transform: scale(0.8);
+}
+100%{
+    color:red;
+}
 }
 header div{
     display: flex;
@@ -139,13 +153,15 @@ header div img{
 
 /* section about */
 #about{
-    height: 100vh;
+    /* height: 100vh; */
 }
 .father-about{
     display: flex;
     width: 80%;
-    height: 80vh;
+    
+    /* height: 80vh; */
     align-items: center;
+    padding-bottom: 40px;
     margin: 0 auto;
  
    
@@ -162,10 +178,14 @@ header div img{
     width: 22%;
 
 }
+.father-about div h5{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
 .father-about div img{
     height: 200px;
+    animation:anim-produit 3s linear infinite;
     border-radius: 50%;
-    width: 200px;
+    width: 80%;
 }
 .father-about div h4{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -181,7 +201,9 @@ header div img{
     padding-top: 100px;
 }
 
-
+#produits{
+    padding-bottom: 100px;
+}
 .father-produits{
 display: flex;
 flex-wrap: wrap;
@@ -189,7 +211,7 @@ gap:40px;
 justify-content: space-around;
 }
 .father-produits div{
-
+position: relative;
     width: 30%;
     border: 1px solid var(--color4);
     box-shadow: 0px 3px 3px var(--color4);
@@ -233,16 +255,37 @@ transform: rotateY(360deg);
 .father-produits h4{
     border: 1px solid var(--color1);
     padding: 10px 20px;
-    margin-bottom: 15px;
+  
     display: inline;
     background-color:var(--color2) ;
     font-size: 1.2rem;
     color:var(--color3);
+
     cursor: pointer;
+
+
    border-radius: 7px;
 }
 .father-produits h4:hover{
     background-color: var(--color4);
-    color:var(--color3)
+    color:var(--color3);
+}
+.father-produits div i{
+    position: absolute;
+    right: 15px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+    font-size: 1.4rem;
+    background-color: var(--color2);
+  
+    border-radius: 8px;
+    top: 10px;
+    padding: 10px 20px;
+    color:var(--color3);
+}
+.father-produits div i:hover{
+    background-color: var(--color4);
+    color:var(--color3);
+    border-radius: 50%;
 }
 
