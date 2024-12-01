@@ -10,6 +10,8 @@
     --color4:black;
     --color5:#7A7B78;
     --color6:orange;
+    --color7:#EA4335;
+    --color8:#1E90FF;
 }
 img{
     z-index: -1;
@@ -349,6 +351,8 @@ box-shadow: 3px 2px 4px var(--color4);
 
 #reservation{
     width: 100%;
+background-color: var(--color4);
+    color:var(--color3);
 }
 .contact{
     display: grid;
@@ -375,6 +379,7 @@ box-shadow: 3px 2px 4px var(--color4);
 }
 #reservation p{
     text-align: justify;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 form{
     display: flex;
@@ -384,7 +389,7 @@ form{
 input, textarea, form button{
     width: 450px;
     padding: 20px;
-    margin: 15px;
+    margin: 7px;
 font-size: 1rem;
     border-radius: 7px;
 }
@@ -402,4 +407,29 @@ form button:hover{
 textarea{
     height: 170px;
     resize: none;
+}
+.mail{
+    font-size: 2rem;
+    padding-right: 20px;
+    cursor: pointer;
+    color:var(--color7)
+}
+.localisation{
+    padding: 15px 0;
+}
+.number{
+    padding: 15px 0;
+}
+.appel{
+    color:var(--color8);
+    padding-right: 20px;
+    font-size: 2rem;
+}
+footer{
+    padding: 40px;
+}
+footer p{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.6rem;
 }
