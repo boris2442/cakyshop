@@ -301,7 +301,7 @@ transform: rotateY(360deg);
 display: flex;
 gap:40px;
 padding: 15px;
-flex-wrap: wrap;
+
 justify-content: space-around;
 padding-bottom: 40px;
 
@@ -335,4 +335,50 @@ box-shadow: 3px 2px 4px var(--color4);
 .father-avis div i{
     color:var(--color6);
     font-size: 1.5rem;
+}
+
+/* partie reservation */
+
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    gap:40px;
+}
+#reservation h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px;
+    font-family:"parisienne", Arial, Helvetica, sans-serif;
+}
+#reservation p{
+    text-align: justify;
+}
+form{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+}
+input, textarea, form button{
+    width: 450px;
+    padding: 20px;
+    margin: 15px;
+font-size: 1rem;
+    border-radius: 7px;
+}
+form button{
+    background-color: var(--color2);
+    color:var(--color3);
+    font-size: 1.3rem;
+    cursor: pointer;
+    border: none;
+    transition: 1s ease-in-out;
+}
+form button:hover{
+    background-color: var(--color4);
+}
+textarea{
+    height: 170px;
+    resize: none;
 }
