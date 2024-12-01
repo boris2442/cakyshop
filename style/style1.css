@@ -12,18 +12,20 @@
     --color6:orange;
     --color7:#EA4335;
     --color8:#1E90FF;
+    --color9:#EA4335;
 }
 img{
     z-index: -1;
 }
 header{
-    padding: 30px;
+    padding: 45px;
     height: 15vh;
    position: fixed;
    width: 100%;
    z-index: 1;
     margin: 0 auto;
 background-color: var(--color3);
+text-align: center;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -36,7 +38,7 @@ header ul{
 
 }
 header ul li{
- 
+
     list-style-type: none;
 }
 header ul li a{
@@ -44,6 +46,9 @@ header ul li a{
     color:var(--color2);
 text-align: center;
 margin: 0 auto;
+display: flex;
+align-items: center;
+justify-content: center;
     font-weight: bold;
     transition: 1s ease-in-out;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -57,11 +62,19 @@ header ul li a:hover{
 
 }
 header h2{
-
+    
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
+    margin: 0 auto;
+    padding-top: -30px;
+
+    
+    
+    
+    
     animation:anim-welcome 2s linear infinite;
 }
+
 @keyframes anim-welcome {
 50%{
     transform: scale(0.8);
@@ -72,15 +85,16 @@ header h2{
 }
 header div{
     display: flex;
-    align-items: center;
+  
     margin: 0 auto;
-    justify-content: center;
+    padding-top: -60px;
+ 
     gap:20px;
 }
 header div img{
     text-align: center;
     border-radius: 50%;
- 
+ margin-top: -30px;
  
 }
 
@@ -342,7 +356,7 @@ box-shadow: 3px 2px 4px var(--color4);
     text-align: center;
     padding: 40px;
     text-transform: capitalize;
-    font-family: "parisienne" Arial, Helvetica, sans-serif;
+    font-family: "parisienne", Arial, Helvetica, sans-serif;
     font-size: 2rem;
 }
 /* partie reservation */
@@ -417,6 +431,11 @@ textarea{
 .localisation{
     padding: 15px 0;
 }
+.location{
+    color:#EA4335;
+    font-size: 2rem;
+
+}
 .number{
     padding: 15px 0;
 }
@@ -424,6 +443,15 @@ textarea{
     color:var(--color8);
     padding-right: 20px;
     font-size: 2rem;
+}
+#reservation i{
+    transition:1s ease-in-out;
+    cursor: pointer;
+}
+#reservation i:hover{
+    background-color: var(--color3);
+    padding: 15px;
+    border-radius: 50%;
 }
 footer{
     padding: 40px;
