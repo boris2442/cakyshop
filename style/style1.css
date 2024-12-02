@@ -160,6 +160,10 @@ header div img{
     background-color: var(--color2);
     font-size: 1.2rem;
 }
+#accueil button a{
+    text-decoration: none;
+    color:var(--color3);
+}
 #accueil button:hover{
     background-color: var(--color4);
     
@@ -272,7 +276,7 @@ transform: rotateY(360deg);
 .father-produits h3, .father-produits h4{
     padding-left: 10px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-   margin: 15px;
+   /* margin: 15px; */
 
    transition: 1s ease-in-out;
 }
@@ -291,6 +295,7 @@ transform: rotateY(360deg);
 margin-bottom: 10px;
 position: absolute;
 bottom: 3px;
+left: 13px;
     cursor: pointer;
 
 
@@ -416,7 +421,7 @@ background-color: var(--color4);
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #reservation p:hover{
-    color:var(--color2);
+    color:var(--color1);
 }
 form{
     display: flex;
