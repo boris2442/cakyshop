@@ -354,7 +354,8 @@ box-shadow: 3px 2px 4px var(--color4);
 }
 .father-avis div p{
     text-align: justify;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 1.2rem;
     padding-bottom: 20px;
 }
 .father-avis div i{
@@ -413,7 +414,7 @@ form{
     margin: 0 auto;
     flex-direction: column;
 }
-input, textarea, form button{
+input, textarea, form button {
     width: 450px;
     padding: 20px;
     margin: 7px;
@@ -430,6 +431,10 @@ form button{
 }
 form button:hover{
     background-color: var(--color4);
+}
+form button a{
+    text-decoration: none;
+    color:var(--color3);
 }
 textarea{
     height: 170px;
