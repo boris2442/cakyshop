@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
     header.style.transition="1s ease-in-out";
     const links = header.querySelectorAll("a");
     links.forEach(link => {
-      link.style.color = "var(--color3)"; // Change la couleur des liens
+      link.style.color = "var(--color3)"; 
     });
   } else {
     // Réinitialisation des styles
@@ -22,4 +22,20 @@ window.addEventListener("scroll", () => {
   }
 });
 
+// Sélection du header et du h2
+const header2 = document.getElementById("main-header2");
+const headerText = header.querySelector("h2");
+
+// Ajout de l'événement scroll
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 50) {
+    // Change la couleur du texte de h2 en blanc
+    headerText.style.color = "white";
+    header.style.backgroundColor = "red"; // Facultatif : Change le fond du header
+  } else {
+    // Réinitialise la couleur du texte
+    headerText.style.color = "black";
+    header2.style.backgroundColor = "transparent"; // Facultatif : Réinitialise le fond
+  }
+});
 
