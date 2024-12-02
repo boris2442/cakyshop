@@ -355,8 +355,12 @@ box-shadow: 3px 2px 4px var(--color4);
 .father-avis div p{
     text-align: justify;
     font-weight: 400;
+    transition: 1s ease-in-out;
     font-size: 1.2rem;
     padding-bottom: 20px;
+}
+.father-avis div p:hover{
+    color:var(--color2);
 }
 .father-avis div i{
     color:var(--color6);
@@ -369,6 +373,7 @@ box-shadow: 3px 2px 4px var(--color4);
     font-family: "parisienne", Arial, Helvetica, sans-serif;
     font-size: 2rem;
 }
+
 /* partie reservation */
 
 
@@ -591,4 +596,8 @@ flex-direction: column-reverse;
     width: 95%;
     padding: 10px;
   }
+}
+.header1-js{
+background-color: var(--color4);
+color:var(--color3);
 }
