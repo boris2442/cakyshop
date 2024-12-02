@@ -16,7 +16,8 @@ window.addEventListener("scroll", () => {
     header.style.backgroundColor = "var(--color3)";
     const links = header.querySelectorAll("a");
     links.forEach(link => {
-      link.style.color = "var(--color4)"; // Rétablit la couleur des liens
+      link.style.color = "var(--color2)"; // Rétablit la couleur des liens
+      link.style.fontWeight="bold";
     });
   }
 });
