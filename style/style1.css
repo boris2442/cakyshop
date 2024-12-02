@@ -205,9 +205,13 @@ header div img{
 }
 .father-about div img{
     height: 200px;
-    animation:anim-produit 3s linear infinite;
+    /* animation:anim-produit 3s linear infinite; */
     border-radius: 50%;
+    transition: 1s ease-in-out;
     width: 80%;
+}
+.father-about div img:hover{
+    transform: scale(0.8);
 }
 .father-about div h4{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -600,4 +604,12 @@ flex-direction: column-reverse;
 .header1-js{
 background-color: var(--color4);
 color:var(--color3);
+}
+
+@media screen and (max-width:630px) {
+    #avis .father-avis div p{
+        height: 300px;
+        overflow: auto;
+        padding: 40px;
+    }
 }
