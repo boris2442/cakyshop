@@ -444,6 +444,11 @@ input, textarea, form button {
 font-size: 1rem;
     border-radius: 7px;
 }
+input:focus, textarea:focus{
+ background: var(--color5);  
+ font-size: 1.15rem; 
+ color:var(--color3);
+}
 form button{
     background-color: var(--color2);
     color:var(--color3);
