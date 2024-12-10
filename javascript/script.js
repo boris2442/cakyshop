@@ -39,3 +39,22 @@ window.addEventListener("scroll", () => {
   }
 });
 
+
+///////////////////////////////////////////////////////autre code javascript
+
+const active= document.querySelector("header>ul");
+const burgerMenu=document.querySelector(".burger");
+burgerMenu.addEventListener("click", ()=>{
+if(window.scrollX<815){
+  active.classList.toggle("active")
+
+}
+
+
+  // if(window.scrollY>200){
+  //   links.forEach(link => {
+  //     link.style.color = "black" // Rétablit la couleur des liens
+  //     link.style.fontWeight="bold";
+  //   });
+  // }
+})
