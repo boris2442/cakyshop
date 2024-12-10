@@ -9,7 +9,7 @@ window.addEventListener("scroll", () => {
     header.style.transition="1s ease-in-out";
     const links = header.querySelectorAll("a");
     links.forEach(link => {
-      link.style.color = "var(--color3)"; 
+      link.style.color = "var(--color4)"; 
     });
   } else {
     // Réinitialisation des styles
