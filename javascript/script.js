@@ -30,7 +30,7 @@ const headerText = header.querySelector("h2");
 window.addEventListener("scroll", () => {
   if (window.scrollY > 50) {
     // Change la couleur du texte de h2 en blanc
-    headerText.style.color = "white";
+    headerText.style.color = "black";
     header.style.backgroundColor = "red"; // Facultatif : Change le fond du header
   } else {
     // Réinitialise la couleur du texte
@@ -48,6 +48,9 @@ burgerMenu.addEventListener("click", ()=>{
 if(window.scrollX<815){
   active.classList.toggle("active")
 
+}else{
+  active.classList.add("active2")
+  active.classList.toggle("active")
 }
 
 
