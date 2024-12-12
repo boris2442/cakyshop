@@ -61,6 +61,7 @@ align-items: center;
 justify-content: center;
     font-weight: bold;
     transition: 1s ease-in-out;
+    /* font-family: "Parkinsans" Arial, Helvetica, sans-serif; */
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 header ul li a:hover{
