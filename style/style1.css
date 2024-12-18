@@ -6,7 +6,6 @@
     border: none;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    font-family: 'Parkinsans';
 }
 :root{
     --color1: #9C8F7B;
@@ -20,6 +19,7 @@
     --color9:#EA4335;
 }
 htmml, body{
+    font-family: 'Parkinsans', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
