@@ -159,6 +159,7 @@ header div img{
     font-size: 3rem;
 }
 #accueil p{
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
     padding-left: 100px;
     font-family:'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
     color:var(--color3);
@@ -444,11 +445,13 @@ background-color: var(--color4);
 }
 #reservation p{
     text-align: justify;
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
     transition: 1s ease-in-out;
     font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #reservation p:hover{
     color:var(--color1);
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
 }
 form{
     display: flex;
@@ -524,7 +527,8 @@ footer{
 footer p{
     text-align: center;
     font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
+    font-size: clamp(1.2rem, 3vw, 1.6rem);
 }
 
 
@@ -627,7 +631,7 @@ flex-direction: column-reverse;
     }
     .father-avis div p{
         width: 50%;
-      
+        font-size: clamp(1.1rem, 2vw, 1.4rem);
         margin: 0 auto;
     
     }
