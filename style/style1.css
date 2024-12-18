@@ -464,6 +464,7 @@ font-size: 1rem;
 input:focus, textarea:focus{
  background: var(--color5);  
  font-size: 1.15rem; 
+ transition: background 1s ease-in-out;
  color:var(--color3);
 }
 form button{
