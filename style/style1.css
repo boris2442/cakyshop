@@ -63,7 +63,7 @@ justify-content: center;
     font-weight: bold;
     transition: 1s ease-in-out;
     font-family: "Parkinsans" Arial, Helvetica, sans-serif;
-    /* font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; */
+  
 }
 header ul li a:hover{
     background-color: var(--color2);
@@ -92,11 +92,6 @@ header h2{
     font-weight: 400;
     margin: 0 auto;
     padding-top: -30px;
-
-    
-    
-    
-    
     animation:anim-welcome 2s linear infinite;
 }
 
@@ -198,7 +193,13 @@ header div img{
 }
 
 
-/* section about */
+/*############### section about############### */
+
+
+
+
+
+
 #about h2{
   padding-bottom: 40px;
 }
@@ -231,7 +232,7 @@ header div img{
 }
 .father-about div img{
     height: 200px;
-    /* animation:anim-produit 3s linear infinite; */
+   
     border-radius: 50%;
     transition: 1s ease-in-out;
     width: 80%;
@@ -298,7 +299,7 @@ transform: rotateY(360deg);
 .father-produits h3, .father-produits h4{
     padding-left: 10px;
     font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
-   /* margin: 15px; */
+ 
 
    transition: 1s ease-in-out;
 }
@@ -586,7 +587,7 @@ flex-direction: column-reverse;
     flex-direction: column;
     position: absolute;
     gap:20px;
-    /* transform: translateX(100px); */
+   
     transition: 0.5s ease-in-out;
     padding: 20px;
    box-shadow: 0px 4px 2px var(--color4);
@@ -596,7 +597,7 @@ flex-direction: column-reverse;
 
 }
 .active:hover{
- /* background: var(--color3); */
+
  color:var(--color3);
 }
 
