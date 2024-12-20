@@ -18,13 +18,18 @@
     --color8:#1E90FF;
     --color9:#EA4335;
 }
-htmml, body{
+html, body{
     font-family: 'Parkinsans', Arial, Helvetica, sans-serif;
     overflow-x: hidden;
     width: 100%;
 }
 img{
     z-index: -1;
+    transition: all 1s ease-in-out;
+}
+img:hover{
+   filter: grayscale (100%);
+   cursor: pointer;
 }
 header{
     padding: 45px;
@@ -240,6 +245,7 @@ header div img{
 }
 .father-about div img:hover{
     transform: scale(0.8);
+    filter: grayscale(100%);
 }
 .father-about div h4{
     font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
