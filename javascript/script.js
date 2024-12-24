@@ -61,3 +61,60 @@ if(window.scrollX<815){
   //   });
   // }
 })
+
+
+const secondTitle=document.querySelector("#accueil h2");
+const typewriter= new Typewriter (secondTitle, {
+  loop:true,
+  delay:100
+})
+
+typewriter
+.typeString("Bienvenue au Palais du Gout")
+.pauseFor(2000)
+.deleteAll()
+.pauseFor(2000)
+.start();
+
+
+const title=document.querySelector("h1");
+const app= new Typewriter(title, {
+loop:true,
+delay:100
+})
+
+app
+.typeString("L'écrin gourmand <br> <br> Douceurs Artisanales")
+.pauseFor(2000)
+.deleteAll()
+.start();
+
+
+
+// partie destinee au swiper library 
+
+const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  delay:2500,
+  autoplay:{
+      disableOnInteraction: false, 
+  },
+speed:500,
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    el: '.swiper-scrollbar',
+  },
+});
