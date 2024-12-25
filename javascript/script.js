@@ -84,11 +84,10 @@ rem.addEventListener("click", ()=>{
     navigation.classList.add("scrool2")
 })
 
-window.addEventListener("scroll",()=>{
+window.addEventListener("scroll", ()=>{
   rem.style.display='none'
     burger.style.display='block'
-    // navigation.style.position="absolute"
-    // navigation.style.right=-100%
+    
   navigation.classList.add("scrool2")
 })
 
