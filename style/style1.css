@@ -35,18 +35,18 @@ header{
     padding: 45px;
     height: 15vh;
  
-
+position: fixed;
     width: 100%;
     z-index: 55;
     margin: 0 auto;
     background-color: var(--color3);
     text-align: center;
-    position: sticky;
+    /* position: sticky; */
     top: 0;
     left: 0;
     align-items: center;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr ;
 }
 header ul{
     display: flex;
@@ -79,36 +79,34 @@ header ul li a::after{
     background-color: var(--color7);
     height: 2px;
     width: 0;
-    transition: 0.4s width ease-in-out;
+    transition: 0.4s  ease-in-out;
     bottom: -2px;
 }
 header ul li a:hover::after{
     width: 100%;
-}
-/* header ul li a:hover{
-    background-color: var(--color2);
-    padding: 12px 18px;
-    transform: scale(0.9);
-    color:var(--color3);
-    border-radius: 7px;
 
-} */
-.menu{
+}
+
+/* .menu{
     position:absolute;
     align-items: center;
     justify-content: center;
     right: 24px;
     top: 20px;
-}
+} */
 .menu i{
-    font-size: 1.5rem;
-    display: none;
+    font-size: 2.5rem;
+    /* display: none; */
+    /* position: absolute; */
+    /* top: 24px; */
     font-weight: bold;
-    color:var(--color4)
+    display: none;
+    color:var(--color4);
+    /* color:red; */
 }
 header h2{
     
-    font-family:'Parkinsans' Arial, Helvetica, sans-serif;
+    font-family:'Parkinsans', Arial, Helvetica, sans-serif;
     font-weight: 400;
     margin: 0 auto;
     padding-top: -30px;
@@ -170,7 +168,7 @@ header div img{
 }
 #accueil h1{
     text-transform: capitalize;
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans',  Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-weight: bolder;
    padding-bottom: 40px;
     color:var(--color3);
@@ -182,11 +180,11 @@ header div img{
 #accueil p{
     font-size: clamp(1.2rem, 3vw, 1.6rem);
     padding-left: 100px;
-    font-family:'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family:'Parkinsans',  Arial, "Helvetica Neue", Helvetica, sans-serif;
     color:var(--color3);
 }
 #accueil button{
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans',  Arial, "Helvetica Neue", Helvetica, sans-serif;
     margin-left: 100px;
     border: none;
     margin-top: 30px;
@@ -250,7 +248,7 @@ header div img{
 
 }
 .father-about div h5{
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans',  Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .father-about div img{
     height: 200px;
@@ -269,11 +267,11 @@ header div img{
 }
 .father-about div h5{
     font-size: 1rem;
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans',  Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 #about h2{
     text-align: center;
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans',  Arial, "Helvetica Neue", Helvetica, sans-serif;
     padding-top: 100px;
 }
 
@@ -436,6 +434,10 @@ box-shadow: 3px 2px 4px var(--color4);
 
 
 
+/*######################
+                           section et a decouvrie
+                                                   ########################## */
+
 /* #################################
                                     partie swiper
                                                 ############################ */
@@ -476,10 +478,6 @@ box-shadow: 3px 2px 4px var(--color4);
                                                       filter: grayscale(0%);
                                                     }
                                                   }
-
-/*######################
-                           section et a decouvrie
-                                                   ########################## */
 
 /* partie reservation */
 #et-a-decouvrir{
@@ -649,21 +647,46 @@ flex-direction: column-reverse;
 }
 
 
-@media screen and (max-width:815px) {
+@media screen and (max-width:710px) {
     .menu i{
-        display: flex;
+        display:block;
         cursor: pointer;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+    }
+   #accueil{
+        position: relative;
+    }
+    header ul{
+        position: absolute;
+        display: flex;
+        /* margin: -10; */
+        padding: 0;
+       
+        column-gap: 20px;
+        flex-direction: column;
+        /* left:-10px; */
+        top: 15vh;
+        right: -100%;
+        background-color: var(--color3);
+        border-radius: 7px;
+        /* border: 2px solid var(--color7); */
+        box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.251);
+        border-top: none;
+        box-shadow: -4px 5px 55px 0px rgba(0, 0, 0, 0.251) ;
+        height: 50vh;
+        width: 300px;
+    }
+    .scrool{
+        right: 0;
     }
 
-}
-@media screen and (max-width:800px) {
-   
-    
 }
 
 @media screen and (max-width:815px) {
     header ul{
-        display: none;
+      
     }
 }
 
