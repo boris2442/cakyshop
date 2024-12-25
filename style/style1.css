@@ -648,7 +648,7 @@ flex-direction: column-reverse;
 
 
 @media screen and (max-width:710px) {
-    .menu i{
+    .menu .burger, .fa-x{
         display:block;
         cursor: pointer;
         display: flex;
@@ -685,6 +685,12 @@ flex-direction: column-reverse;
         transition: 1s ease-in-out;
         right: 0;
     }
+    .scrool2{
+        right: -100%;
+        transition:1s ease-in-out ;
+        position: absolute;
+    }
+  
 
 }
 

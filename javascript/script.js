@@ -68,11 +68,22 @@
 // code reservee au burger menu
 
 const burger=document.querySelector(".burger");
+const rem=document.querySelector(".remov")
 const navigation=document.querySelector("header ul")
 
 burger.addEventListener("click", ()=>{
-  navigation.classList.toggle("scrool")
+  navigation.classList.add("scrool")
+  burger.style.display='none'
+  rem.style.display='block'
+  navigation.classList.remove("scrool2")
+});
+rem.addEventListener("click", ()=>{
+  rem.style.display='none'
+    burger.style.display='block'
+    navigation.classList.remove("scrool")
+    navigation.classList.add("scrool2")
 })
+
 
 
 
