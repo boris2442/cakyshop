@@ -87,8 +87,9 @@ rem.addEventListener("click", ()=>{
 window.addEventListener("scroll",()=>{
   rem.style.display='none'
     burger.style.display='block'
-    navigation.style.visibility="invisible"
-  navigation.classList.remove(".scrool2")
+    // navigation.style.position="absolute"
+    // navigation.style.right=-100%
+  navigation.classList.add("scrool2")
 })
 
 

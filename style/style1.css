@@ -87,12 +87,14 @@ header ul li a:hover::after{
 
 }
 
-
+.menu{
+    display: none;
+}
 .menu i{
     font-size: 2.5rem;
     
     font-weight: bold;
-    display: none;
+    
     display: none;
     color:var(--color4);
  
@@ -636,14 +638,14 @@ flex-direction: column-reverse;
 
 
 @media screen and (max-width:710px) {
-    .menu .burger, .fa-x{
+    .menu .burger, .fa-x, .menu{
         display:block;
         cursor: pointer;
         display: flex;
         align-items: center;
-        top: 35px;
+        top: 18px;
         position: absolute;
-        /* top: 50%; */
+     
         right: 20px;
     }
    #accueil{
@@ -652,17 +654,17 @@ flex-direction: column-reverse;
     header ul{
         position: absolute;
         display: flex;
-        /* margin: -10; */
+  
         padding: 0;
        
         column-gap: 20px;
         flex-direction: column;
-        /* left:-10px; */
+     
         top: 15vh;
         right: -100%;
         background-color: var(--color3);
         border-radius: 7px;
-        /* border: 2px solid var(--color7); */
+   
         box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.251);
         border-top: none;
         box-shadow: -4px 5px 55px 0px rgba(0, 0, 0, 0.251) ;
