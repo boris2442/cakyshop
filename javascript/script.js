@@ -153,3 +153,14 @@ speed:500,
     el: '.swiper-scrollbar',
   },
 });
+
+// insertion de la librairie scrollreveal
+const sr= ScrollReveal({
+    duration:1500,
+    distance:"30px",
+    reset:true,
+   origin:"top"
+
+})
+
+sr.reveal(".reservation-one, .avis, .et-a-decouvrir")
