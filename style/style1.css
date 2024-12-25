@@ -651,8 +651,11 @@ flex-direction: column-reverse;
     .menu i{
         display:block;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        top: 35px;
         position: absolute;
-        top: 50%;
+        /* top: 50%; */
         right: 20px;
     }
    #accueil{
@@ -679,6 +682,7 @@ flex-direction: column-reverse;
         width: 300px;
     }
     .scrool{
+        transition: 1s ease-in-out;
         right: 0;
     }
 

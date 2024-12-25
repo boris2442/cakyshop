@@ -61,6 +61,23 @@
   // }
 // })
 
+
+
+
+
+// code reservee au burger menu
+
+const burger=document.querySelector(".burger");
+const navigation=document.querySelector("header ul")
+
+burger.addEventListener("click", ()=>{
+  navigation.classList.toggle("scrool")
+})
+
+
+
+
+
 //####################### librairie typewriter########################333
 
 const secondTitle=document.querySelector("#accueil h2");
