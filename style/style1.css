@@ -34,14 +34,14 @@ img:hover{
 header{
     padding: 45px;
     height: 15vh;
- 
+    box-shadow: 0px 25px 50px 12px rgba(0, 0, 0, 0.251);
 position: fixed;
     width: 100%;
     z-index: 55;
     margin: 0 auto;
     background-color: var(--color3);
     text-align: center;
-    /* position: sticky; */
+  
     top: 0;
     left: 0;
     align-items: center;
@@ -87,22 +87,15 @@ header ul li a:hover::after{
 
 }
 
-/* .menu{
-    position:absolute;
-    align-items: center;
-    justify-content: center;
-    right: 24px;
-    top: 20px;
-} */
+
 .menu i{
     font-size: 2.5rem;
-    /* display: none; */
-    /* position: absolute; */
-    /* top: 24px; */
+    
     font-weight: bold;
     display: none;
+    display: none;
     color:var(--color4);
-    /* color:red; */
+ 
 }
 header h2{
     
@@ -148,11 +141,6 @@ header div img{
      padding:100px ;
      padding-top: 150px;
      line-height: 40px;
- 
-     
-    
-
-  
    
 }
 
@@ -262,7 +250,7 @@ header div img{
     filter: grayscale(100%);
 }
 .father-about div h4{
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans', Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 1.3rem;
 }
 .father-about div h5{
@@ -319,7 +307,7 @@ transform: rotateY(360deg);
 }
 .father-produits h3, .father-produits h4{
     padding-left: 10px;
-    font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Parkinsans', Arial, "Helvetica Neue", Helvetica, sans-serif;
  
 
    transition: 1s ease-in-out;
@@ -442,7 +430,7 @@ box-shadow: 3px 2px 4px var(--color4);
                                     partie swiper
                                                 ############################ */
 
-                                                .swiper{
+                                                    .swiper{
                                                     width: 600px;
                                                     margin: 0 auto;
                                                     border-bottom-right-radius: 99px;
