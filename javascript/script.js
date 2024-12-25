@@ -163,4 +163,4 @@ const sr= ScrollReveal({
 
 })
 
-sr.reveal(".reservation-one, .avis, .et-a-decouvrir")
+sr.reveal(".reservation-one, .avis, .et-a-decouvrir, produits, .about, .home, .father-avis",{interval:200})
