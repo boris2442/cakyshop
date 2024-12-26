@@ -684,9 +684,9 @@ flex-direction: column-reverse;
 
 }
 
-@media screen and (max-width:815px) {
-    header ul{
-      
+@media screen and (max-width:550px) {
+  .father-avis i{
+      font-size: 0.8rem;
     }
 }
 
