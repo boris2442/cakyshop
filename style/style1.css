@@ -425,7 +425,7 @@ box-shadow: 3px 2px 4px var(--color4);
 
 
 /*######################
-                           section et a decouvrie
+                           section et a decouvrir
                                                    ########################## */
 
 /* #################################
@@ -746,10 +746,7 @@ flex-direction: column-reverse;
     
 }
 @media screen and (max-width:550px) {
-    /* .none2, header div img{
-        display: none;
-
-    } */
+    
     #accueil{
        height: 150vh;
        padding-bottom: 50px;
