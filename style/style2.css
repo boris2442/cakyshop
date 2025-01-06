@@ -24,6 +24,7 @@
   border-radius: 7px;
   padding: 10px;
   color:var(--color3);
+  transition: .6s ease-in-out;
   background-color: var(--color2);
   border-bottom: 3px solid var(--color2);
 }
