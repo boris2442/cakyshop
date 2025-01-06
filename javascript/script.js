@@ -168,5 +168,23 @@ sr.reveal(".reservation-one, .avis, .et-a-decouvrir, produits, .about, .home, .f
 
 
 // partie destinee a l'ajout d'une classe active à un lien lors du défilement
+const sections=document.querySelectorAll("section");
+const links=document.querySelectorAll("header ul li a")
 
+const activeLink=()=>{
+sections.forEach(section => {
+  let scroll=window.scrollY;
+  let height=section.offsetHeight;
+  let top=section.offsetTop;
+  let id=section.getAttribute("id");
+  if(scroll>=top - 400 && scroll<top+height){
+links.forEach(link => {
+  link.classList.remove("active-link")
+});
+let recuperationId=document.querySelector(`header ul li a[href*=${id}]`)
+recuperationId.classList.add("active-link")
+  }
+});
+}
 
+window.addEventListener("scroll",activeLink )
