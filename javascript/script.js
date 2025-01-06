@@ -164,3 +164,9 @@ const sr= ScrollReveal({
 })
 
 sr.reveal(".reservation-one, .avis, .et-a-decouvrir, produits, .about, .home, .father-avis",{interval:200})
+
+
+
+// partie destinee a l'ajout d'une classe active à un lien lors du défilement
+
+

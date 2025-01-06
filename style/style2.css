@@ -15,3 +15,11 @@
     color:green;
   }
 }
+
+
+
+/* partie destinee a l'ajout d'une classe active à un lien lors du défilemen */
+
+.active-link{
+  border-bottom: 3px solid var(--color2);
+}

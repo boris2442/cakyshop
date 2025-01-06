@@ -52,7 +52,7 @@ header ul{
     display: flex;
    text-align: center;
     justify-content: space-around;
-  
+  align-items: center;
 
 }
 header ul li{
@@ -64,12 +64,14 @@ header ul li a{
     color:var(--color2);
 text-align: center;
 margin: 0 auto;
+font-size: 1.3rem;
 display: flex;
+text-transform: lowercase;
 align-items: center;
 justify-content: center;
     font-weight: bold;
     position: relative;
-    font-family: "Parkinsans", Arial, Helvetica, sans-serif;
+    font-family: "Parkinsans",'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, Helvetica, sans-serif;
     
 }
 
@@ -659,7 +661,7 @@ flex-direction: column-reverse;
        
         column-gap: 20px;
         flex-direction: column;
-     
+     /* height: 300px; */
         top: 15vh;
         right: -100%;
         background-color: var(--color3);
