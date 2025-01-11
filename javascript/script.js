@@ -136,6 +136,6 @@ window.onload = function() {
 
 const sun=document.querySelector('.sun');
 sun.addEventListener("click", ()=>{
-  document.body.classList.add("dark")
+  document.body.classList.toggle("dark")
 console.log("hey")
 })

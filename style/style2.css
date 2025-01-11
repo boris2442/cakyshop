@@ -36,17 +36,38 @@ font-size: 1.9rem;
 }
 .darkmode i:nth-child(1){
   color:#FFD700;
+ 
 }
 .darkmode i:nth-child(2){
   color: #A9A9A9;
 }
 .dark{
-  background-color:#121212 ;
+  /* background-color:#121212 ; */
+  background: rgba(0, 0, 0, 0.5);
+ background-color: #333;
+ background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+ color:#fff;
 }
 
-.darkmode-body{
-  background-color: #121212; /* Fond sombre pour le header */
-}
+
 .dark header{
   background-color: #121212;
+}
+.dark header ul li a{
+  color: #f1f1f1; 
+}
+.dark header ul li a:hover{
+  color: var(--color1);
+}
+
+.dark .home{
+  background-image: linear-gradient(to bottom, rgba(18, 18, 18, 0.8), rgba(0, 0, 0, 0.8)), url('/asset/background.webp');
+  color: #f1f1f1;
+}
+.dark .home button.btn1 {
+  background-color: #8b0000;
+  background: green;
+}
+.dark .home button:hover{
+  background-color: #f1f1f1;
 }
