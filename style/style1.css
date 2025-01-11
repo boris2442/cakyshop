@@ -127,6 +127,12 @@ position: fixed;
     display: grid;
     grid-template-columns: 1fr 2fr ;
 }
+header img{
+display: flex;
+align-items: center;
+margin-top: 100px;
+
+}
 header ul{
     padding: 0;
     display: flex;

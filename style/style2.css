@@ -29,17 +29,19 @@
   border-bottom: 3px solid var(--color2);
 }
 
+
+/* partie dark mode */
 .darkmode{
   display: flex;
+  padding-left: 20px;
   flex-direction: column;
 
 }
 .darkmode h3{
   padding: 7px;
   border: 1px dashed pink;
+ 
 }
-/* partie dark mode */
-
 .darkmode i{
   cursor: pointer;
 font-size: 1.9rem;
