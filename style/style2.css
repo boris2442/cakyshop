@@ -42,7 +42,7 @@ font-size: 1.9rem;
   color: #A9A9A9;
 }
 .dark{
-  /* background-color:#121212 ; */
+
   background: rgba(0, 0, 0, 0.5);
  background-color: #333;
  background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
