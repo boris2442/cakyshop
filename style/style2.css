@@ -28,3 +28,25 @@
   background-color: var(--color2);
   border-bottom: 3px solid var(--color2);
 }
+
+/* partie dark mode */
+
+.darkmode i{
+font-size: 1.9rem;
+}
+.darkmode i:nth-child(1){
+  color:#FFD700;
+}
+.darkmode i:nth-child(2){
+  color: #A9A9A9;
+}
+.dark{
+  background-color:#121212 ;
+}
+
+.darkmode-body{
+  background-color: #121212; /* Fond sombre pour le header */
+}
+.dark header{
+  background-color: #121212;
+}

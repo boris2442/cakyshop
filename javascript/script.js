@@ -130,3 +130,12 @@ window.onload = function() {
   document.querySelector('.loader').style.display = 'none';
   document.querySelector('.loader').style.transition='5s ease-out'
 };
+
+
+// partie darkmode
+
+const sun=document.querySelector('.sun');
+sun.addEventListener("click", ()=>{
+  document.body.classList.add("dark")
+console.log("hey")
+})

@@ -110,7 +110,7 @@ img:hover{
    cursor: pointer;
 }
 header{
-    padding: 45px;
+   
     height: 15vh;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
    
@@ -128,6 +128,7 @@ position: fixed;
     grid-template-columns: 1fr 2fr ;
 }
 header ul{
+    padding: 0;
     display: flex;
    text-align: center;
     justify-content: space-around;
@@ -720,7 +721,7 @@ flex-direction: column-reverse;
 }
 
 
-@media screen and (max-width:710px) {
+@media screen and (max-width:990px) {
     .menu .burger, .fa-x, .menu{
         display:block;
         cursor: pointer;
