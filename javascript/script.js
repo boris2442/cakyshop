@@ -123,4 +123,10 @@ recuperationId.classList.add("active-link")
 });
 }
 
-window.addEventListener("scroll",activeLink )
+window.addEventListener("scroll",activeLink );
+
+// chargement  de la page
+window.onload = function() {
+  document.querySelector('.loader').style.display = 'none';
+  document.querySelector('.loader').style.transition='5s ease-out'
+};
