@@ -29,18 +29,26 @@
   border-bottom: 3px solid var(--color2);
 }
 
+.darkmode{
+  display: flex;
+  flex-direction: column;
+
+}
+.darkmode h3{
+  padding: 7px;
+  border: 1px dashed pink;
+}
 /* partie dark mode */
 
 .darkmode i{
+  cursor: pointer;
 font-size: 1.9rem;
 }
 .darkmode i:nth-child(1){
   color:#FFD700;
  
 }
-.darkmode i:nth-child(2){
-  color: #A9A9A9;
-}
+
 .dark{
 
   background: rgba(0, 0, 0, 0.5);
