@@ -443,7 +443,7 @@ left: 13px;
 }
 #produits h2{
     text-align: center;
-    font-family: "parisienne", Arial, Helvetica, sans-serif;
+    font-family:'parkinsans' 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:var(--color4);
     padding: 30px;
     font-weight: 800;
