@@ -514,9 +514,6 @@ box-shadow: 3px 2px 4px var(--color4);
 
 
 
-/*######################
-                           section et a decouvrir
-                                                   ########################## */
 
 /* #################################
                                     partie swiper
@@ -686,7 +683,7 @@ footer{
 footer p{
     text-align: center;
     font-family: 'Parkinsans' Arial, "Helvetica Neue", Helvetica, sans-serif;
-    /* font-size: 1.6rem; */
+
     font-size: clamp(1.2rem, 3vw, 1.6rem);
 }
 
